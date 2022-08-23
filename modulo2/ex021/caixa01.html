@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de caixas</title>
+    <style>
+      h1 { /* BOX LEVEL 
+      
+      PARA TRANSFORMAR UM BOX-LEVEL EM INLINE 
+      =
+      display: inline;
+      
+      */
+        text-align: center;
+        background-color: rgb(135, 76, 165);
+        height: 300px;
+        width: 300px;
+
+
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(204, 155, 236);
+         /* PODE SIMPLIFICAR O BORDER COMO
+         
+         border: 10px solid rgb(204, 155, 236);
+         
+         */
+
+        /* MARGIN = DA BORDA PRA FORA
+PADDING = DA BORDA PRA DENTRO */
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin: auto;
+/* PADDING SIMPLIFICADO
+
+padding: 10px 10px 10px 10px;
+*/
+margin-top: 20px;
+margin-right: auto;
+margin-bottom: 40px;
+margin-left: auto;
+/*SIMPLIFICANDO
+margin: 20px auto 40px auto;
+*/
+
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: yellow;
+
+        /*outline: 5px dashed yellow;
+        */
+
+      }
+      a { /* INLINE-LEVEL */
+        color: rgb(147, 12, 231);
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(155, 231, 231);
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>
+      paragrafos tambem sao exemplos de box-level, mas os
+      <a href="#">links são exemplos de caixas inline-leve;</a>Vamos ver como
+      tudo isso funciona.
+    </p>
+  </body>
+</html>

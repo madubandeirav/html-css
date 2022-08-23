@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+div{
+    display: inline-block; 
+    background-color: rgba(136, 86, 177, 0.85);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+}
+/*div#d1{ MUDA A COR
+    background-color: blueviolet;
+}
+div#d2{
+    background-color: rgb(153, 75, 226);
+}
+div#d3{
+    background-color: rgb(174, 118, 227);
+} */
+div:hover{ /*MUDA QUANDO PASSA O MOUSE*/
+    background-color: rgba(255, 255, 0, 0.804);
+  
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+background-color: black;
+color: white;
+width: 200px;
+display: block;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="d1">1
+        <p>kkkkkkk</p>
+    </div>
+    <div id="d2">2
+        <div id="3"></div>
+  
+     </div>
+</body>
+
+</html>

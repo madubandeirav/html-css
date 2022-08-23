@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta                   http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = ID
+        . = CLASS
+        : PSEUDO-CLASS
+        :: = PSEUDO-ELEMENT
+        > =CLILDREN */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ou */ 
+
+a:visited { /* quando o link foi visitado */
+color: red;
+}
+a:hover{ /* QUANDO PASSO O MOUSE*/
+    color: green;
+    text-decoration: underline;
+}
+a:active{ /* quando ativo o link clicando muda de cor*/
+    color: yellow;
+}
+a::after{
+    content: '↵';
+    text-decoration: none;
+    font-weight: normal;
+    color: gray;
+}
+a::before{
+    content: '↳';
+    color: gray;
+}
+.especial{
+    background-color: brown;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+
+    <li><a href="https://www.instagram.com/madubandeirav/" target="_blank">Madu Bandeira</a></li>
+    <li><a href="https://www.instagram.com/madubandeirav/"  target="_blank" class="especial">Madu Bandeira</a></li>
+    <li><a href="https://www.instagram.com/madubandeirav/"target="_blank">Madu Bandeira</a></li>
+
+</ul>
+
+
+</body>
+</html>
