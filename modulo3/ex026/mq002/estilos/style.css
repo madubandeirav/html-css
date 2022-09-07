@@ -9,12 +9,12 @@ Configuraçoes gerais
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.135);
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
 }
 h1{
     color: white;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.137);
+    text-shadow: 3px 3px 0px black;
     padding: 10px;
 }
