@@ -42,10 +42,10 @@ menu > ul > li > a{
     text-decoration: none;
     text-align: center;
     padding: 10px;
-    border-top: 2px solid gray;
+    
 }
 menu > a:hover{
-    background-color: grey;
+    background-color: darkgoldenrod;
 }
 main{
     width: 90vw;
